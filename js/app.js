@@ -1,4 +1,5 @@
 let swDirect = '/20213-PWA-U2-P5-JJBM/sw.js';
+let url = window.location.href;
 
 if (navigator.serviceWorker) {
     console.log('SW DISPONIBLE');
